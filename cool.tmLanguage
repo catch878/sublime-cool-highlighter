@@ -154,7 +154,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?:&lt;-|\+|-|\*|/|=|&lt;=|&lt;|=&gt;|~|\s|\(|\{|;)(new)\s+([A-Z][A-Za-z0-9_]*)(?:&lt;-|\+|-|\*|/|=|&lt;=|&lt;|=&gt;|\s|\)|\{|;)</string>
+			<string>(?:&lt;-|\+|-|\*|/|=|&lt;=|&lt;|=&gt;|~|\s|\(|\{|;)(new)\s+([A-Z][A-Za-z0-9_]*)(?:&lt;-|\+|-|\*|/|=|&lt;=|&lt;|=&gt;|\s|\)|\{|;|,)</string>
 			<key>name</key>
 			<string>creation.cool</string>
 		</dict>
