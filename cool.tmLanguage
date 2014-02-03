@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
@@ -82,7 +82,7 @@
 			<key>comment</key>
 			<string>Class definition</string>
 			<key>match</key>
-			<string>(\s+|^)(Class|class)\s+([A-Z][A-Za-z0-9_]*)(\s+(inherits|Inherits)\s+([A-Z][A-Za-z0-9_]*))?\s+</string>
+			<string>(\s+|^)([Cc][Ll][Aa][Ss][Ss])\s+([A-Z][A-Za-z0-9_]*)(\s+([Ii][Nn][Hh][Ee][Rr][Ii][Tt][Ss])\s+([A-Z][A-Za-z0-9_]*))?\s+</string>
 			<key>name</key>
 			<string>definition.class.inherits.cool</string>
 		</dict>
@@ -210,7 +210,7 @@
 			<key>comment</key>
 			<string>Reserved words</string>
 			<key>match</key>
-			<string>(?&lt;=\s|^|\(|;)(isvoid|while|not|loop|if|else|let|in|then|fi|pool|case|of|esac)(?=\s|$|\)|;)</string>
+			<string>(?&lt;=\s|^|\(|;)(isvoid|while|not|loop|if|else|let|in|then|fi|pool|case|of|esac|self)(?=\s|$|\)|;)</string>
 			<key>name</key>
 			<string>keyword.cool</string>
 		</dict>

@@ -31,7 +31,7 @@
 			]
 		}, {
 			"name": "definition.class.inherits.cool",
-			"match": "(\\s+|^)(Class|class)\\s+([A-Z][A-Za-z0-9_]*)(\\s+(inherits|Inherits)\\s+([A-Z][A-Za-z0-9_]*))?\\s+",
+			"match": "(\\s+|^)([Cc][Ll][Aa][Ss][Ss])\\s+([A-Z][A-Za-z0-9_]*)(\\s+([Ii][Nn][Hh][Ee][Rr][Ii][Tt][Ss])\\s+([A-Z][A-Za-z0-9_]*))?\\s+",
 			"captures": {
 				"2": { "name": "keyword.cool" },
 				"3": { "name": "entity.name.type.cool" },
@@ -84,7 +84,7 @@
 			"comment": "Operators"
 		}, {
 			"name": "keyword.cool",
-			"match": "(?<=\\s|^|\\(|;)(isvoid|while|not|loop|if|else|let|in|then|fi|pool|case|of|esac)(?=\\s|$|\\)|;)",
+			"match": "(?<=\\s|^|\\(|;)(isvoid|while|not|loop|if|else|let|in|then|fi|pool|case|of|esac|self)(?=\\s|$|\\)|;)",
 			"comment": "Reserved words"
 		}
 	]
